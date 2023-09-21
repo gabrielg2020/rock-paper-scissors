@@ -8,5 +8,8 @@ while (validChoiceSelected === false) {
     // Validate user choice
     if (regexPattern.test(selection)) {
         validChoiceSelected = true
+        selection.toLowerCase()
+    } else {
+        selection = undefined
     }
 }
