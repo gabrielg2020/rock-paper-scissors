@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    
-    <script src="./script.js"></script>
+    <h1>Pick one!</h1>
+    <div class="showcase">
+        <div class="user-showcase">
+            <h1>User</h1>
+            <p class="cpu-result">
+                🪨
+            </p>
+        </div>
+
+        <div class="cpu-showcase">
+            <h1>CPU</h1>
+            <p class="cpu-result">
+                📜
+            </p>
+        </div>
+    </div>
+
+    <div class="selection">
+        <button class="rock-btn">🪨</button>
+        <button class="paper-btn">📜</button>
+        <button class="scissors-btn">✂️</button>
+    </div>
+
+    <p class="counters">
+        <span class="wins">0</span> wins |
+        <span class="losses">0</span> losses |
+        <span class="draws">0</span> draws
+    </p>
 </body>
 </html>
